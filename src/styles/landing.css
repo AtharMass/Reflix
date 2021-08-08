@@ -1,0 +1,60 @@
+#landing-container{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    "u1 u2 u3 u4"
+}
+
+.user-name{
+    text-align: center;
+    margin: auto;
+}
+
+.users{
+    height: 200px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS";
+    font-size: 22px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.user-style-0{
+    grid-area: u1;
+    
+}
+
+.user-style-1{
+    grid-area: u2;
+   
+}
+
+.user-style-2{
+    grid-area: u3;
+}
+
+.user-style-3{
+    grid-area: u4;
+}
+
+.blue{
+    background-color: #3498db;
+}
+
+.red{
+    background-color: #e74c3c;
+}
+
+.green{
+    background-color: #2ecc71;
+}
+
+.yellow{
+    background-color: #f1c40f;
+}

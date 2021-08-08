@@ -1,0 +1,69 @@
+h5{
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+    font-size: 19px;
+    color: wheat;
+    margin-left: 5px;
+}
+
+.catalog{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.rented{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.movie{
+    position: relative;
+    margin:15px;
+    border-radius: 3px;
+    box-shadow: #040404 2px 2px 4px;
+    font-family: "Comic Sans MS";
+
+}
+hr{
+    width: 30%;
+    margin: 15px;
+}
+.btn-add{
+    position: absolute;
+    top: 0;
+    right: 0;   
+    border-radius: 50%;
+    font-size: 30px;
+    color:white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+input{
+    border: 0;
+    border-radius: 5px;
+    margin-top:20px;
+    margin-left:10px;
+    background-color: black;
+    width: 15%;
+    height: 25px;
+    color: wheat;
+}
+
+.search-budget{
+    display: inline;
+}
+
+.budget{
+    /* display: inline; */
+    color: whitesmoke;
+    float: right;
+    margin-right:50px;
+    font-size: 20px;
+}
